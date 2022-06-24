@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61277CF9285C236C00BB0A4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61277CF8285C236C00BB0A4A /* AppDelegate.swift */; };
+		61277CFB285C236C00BB0A4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61277CFA285C236C00BB0A4A /* SceneDelegate.swift */; };
+		61277CFD285C236C00BB0A4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61277CFC285C236C00BB0A4A /* ViewController.swift */; };
+		61277D00285C236C00BB0A4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61277CFE285C236C00BB0A4A /* Main.storyboard */; };
+		61277D02285C237200BB0A4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61277D01285C237200BB0A4A /* Assets.xcassets */; };
+		61277D05285C237200BB0A4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61277D03285C237200BB0A4A /* LaunchScreen.storyboard */; };
+		61277D10285C237300BB0A4A /* TabSelectionButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61277D0F285C237300BB0A4A /* TabSelectionButtonTests.swift */; };
+		61277D1A285C237300BB0A4A /* TabSelectionButtonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61277D19285C237300BB0A4A /* TabSelectionButtonUITests.swift */; };
+		61277D1C285C237300BB0A4A /* TabSelectionButtonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61277D1B285C237300BB0A4A /* TabSelectionButtonUITestsLaunchTests.swift */; };
+		61277D29285C240D00BB0A4A /* TabSelectionButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61277D28285C240D00BB0A4A /* TabSelectionButtons.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61277D0C285C237300BB0A4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61277CED285C236C00BB0A4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61277CF4285C236C00BB0A4A;
+			remoteInfo = TabSelectionButton;
+		};
+		61277D16285C237300BB0A4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61277CED285C236C00BB0A4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61277CF4285C236C00BB0A4A;
+			remoteInfo = TabSelectionButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61277CF5285C236C00BB0A4A /* TabSelectionButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabSelectionButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61277CF8285C236C00BB0A4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		61277CFA285C236C00BB0A4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		61277CFC285C236C00BB0A4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		61277CFF285C236C00BB0A4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61277D01285C237200BB0A4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61277D04285C237200BB0A4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61277D06285C237200BB0A4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61277D0B285C237300BB0A4A /* TabSelectionButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabSelectionButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61277D0F285C237300BB0A4A /* TabSelectionButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSelectionButtonTests.swift; sourceTree = "<group>"; };
+		61277D15285C237300BB0A4A /* TabSelectionButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabSelectionButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61277D19285C237300BB0A4A /* TabSelectionButtonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSelectionButtonUITests.swift; sourceTree = "<group>"; };
+		61277D1B285C237300BB0A4A /* TabSelectionButtonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSelectionButtonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		61277D28285C240D00BB0A4A /* TabSelectionButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TabSelectionButtons.swift; path = Core/TabSelectionButtons.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61277CF2285C236C00BB0A4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61277D08285C237300BB0A4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61277D12285C237300BB0A4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61277CEC285C236C00BB0A4A = {
+			isa = PBXGroup;
+			children = (
+				61277CF7285C236C00BB0A4A /* TabSelectionButton */,
+				61277D0E285C237300BB0A4A /* TabSelectionButtonTests */,
+				61277D18285C237300BB0A4A /* TabSelectionButtonUITests */,
+				61277CF6285C236C00BB0A4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61277CF6285C236C00BB0A4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61277CF5285C236C00BB0A4A /* TabSelectionButton.app */,
+				61277D0B285C237300BB0A4A /* TabSelectionButtonTests.xctest */,
+				61277D15285C237300BB0A4A /* TabSelectionButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61277CF7285C236C00BB0A4A /* TabSelectionButton */ = {
+			isa = PBXGroup;
+			children = (
+				61277CF8285C236C00BB0A4A /* AppDelegate.swift */,
+				61277CFA285C236C00BB0A4A /* SceneDelegate.swift */,
+				61277CFC285C236C00BB0A4A /* ViewController.swift */,
+				61277D28285C240D00BB0A4A /* TabSelectionButtons.swift */,
+				61277CFE285C236C00BB0A4A /* Main.storyboard */,
+				61277D01285C237200BB0A4A /* Assets.xcassets */,
+				61277D03285C237200BB0A4A /* LaunchScreen.storyboard */,
+				61277D06285C237200BB0A4A /* Info.plist */,
+			);
+			path = TabSelectionButton;
+			sourceTree = "<group>";
+		};
+		61277D0E285C237300BB0A4A /* TabSelectionButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				61277D0F285C237300BB0A4A /* TabSelectionButtonTests.swift */,
+			);
+			path = TabSelectionButtonTests;
+			sourceTree = "<group>";
+		};
+		61277D18285C237300BB0A4A /* TabSelectionButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61277D19285C237300BB0A4A /* TabSelectionButtonUITests.swift */,
+				61277D1B285C237300BB0A4A /* TabSelectionButtonUITestsLaunchTests.swift */,
+			);
+			path = TabSelectionButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61277CF4285C236C00BB0A4A /* TabSelectionButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61277D1F285C237300BB0A4A /* Build configuration list for PBXNativeTarget "TabSelectionButton" */;
+			buildPhases = (
+				61277CF1285C236C00BB0A4A /* Sources */,
+				61277CF2285C236C00BB0A4A /* Frameworks */,
+				61277CF3285C236C00BB0A4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabSelectionButton;
+			productName = TabSelectionButton;
+			productReference = 61277CF5285C236C00BB0A4A /* TabSelectionButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61277D0A285C237300BB0A4A /* TabSelectionButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61277D22285C237300BB0A4A /* Build configuration list for PBXNativeTarget "TabSelectionButtonTests" */;
+			buildPhases = (
+				61277D07285C237300BB0A4A /* Sources */,
+				61277D08285C237300BB0A4A /* Frameworks */,
+				61277D09285C237300BB0A4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61277D0D285C237300BB0A4A /* PBXTargetDependency */,
+			);
+			name = TabSelectionButtonTests;
+			productName = TabSelectionButtonTests;
+			productReference = 61277D0B285C237300BB0A4A /* TabSelectionButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61277D14285C237300BB0A4A /* TabSelectionButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61277D25285C237300BB0A4A /* Build configuration list for PBXNativeTarget "TabSelectionButtonUITests" */;
+			buildPhases = (
+				61277D11285C237300BB0A4A /* Sources */,
+				61277D12285C237300BB0A4A /* Frameworks */,
+				61277D13285C237300BB0A4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61277D17285C237300BB0A4A /* PBXTargetDependency */,
+			);
+			name = TabSelectionButtonUITests;
+			productName = TabSelectionButtonUITests;
+			productReference = 61277D15285C237300BB0A4A /* TabSelectionButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61277CED285C236C00BB0A4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					61277CF4285C236C00BB0A4A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					61277D0A285C237300BB0A4A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 61277CF4285C236C00BB0A4A;
+					};
+					61277D14285C237300BB0A4A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 61277CF4285C236C00BB0A4A;
+					};
+				};
+			};
+			buildConfigurationList = 61277CF0285C236C00BB0A4A /* Build configuration list for PBXProject "TabSelectionButton" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61277CEC285C236C00BB0A4A;
+			productRefGroup = 61277CF6285C236C00BB0A4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61277CF4285C236C00BB0A4A /* TabSelectionButton */,
+				61277D0A285C237300BB0A4A /* TabSelectionButtonTests */,
+				61277D14285C237300BB0A4A /* TabSelectionButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61277CF3285C236C00BB0A4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61277D05285C237200BB0A4A /* LaunchScreen.storyboard in Resources */,
+				61277D02285C237200BB0A4A /* Assets.xcassets in Resources */,
+				61277D00285C236C00BB0A4A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61277D09285C237300BB0A4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61277D13285C237300BB0A4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61277CF1285C236C00BB0A4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61277D29285C240D00BB0A4A /* TabSelectionButtons.swift in Sources */,
+				61277CFD285C236C00BB0A4A /* ViewController.swift in Sources */,
+				61277CF9285C236C00BB0A4A /* AppDelegate.swift in Sources */,
+				61277CFB285C236C00BB0A4A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61277D07285C237300BB0A4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61277D10285C237300BB0A4A /* TabSelectionButtonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61277D11285C237300BB0A4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61277D1A285C237300BB0A4A /* TabSelectionButtonUITests.swift in Sources */,
+				61277D1C285C237300BB0A4A /* TabSelectionButtonUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61277D0D285C237300BB0A4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61277CF4285C236C00BB0A4A /* TabSelectionButton */;
+			targetProxy = 61277D0C285C237300BB0A4A /* PBXContainerItemProxy */;
+		};
+		61277D17285C237300BB0A4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61277CF4285C236C00BB0A4A /* TabSelectionButton */;
+			targetProxy = 61277D16285C237300BB0A4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61277CFE285C236C00BB0A4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61277CFF285C236C00BB0A4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61277D03285C237200BB0A4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61277D04285C237200BB0A4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61277D1D285C237300BB0A4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		61277D1E285C237300BB0A4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61277D20285C237300BB0A4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DZ9QM2845;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TabSelectionButton/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oakleafproject.TabSelectionButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61277D21285C237300BB0A4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DZ9QM2845;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TabSelectionButton/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oakleafproject.TabSelectionButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		61277D23285C237300BB0A4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DZ9QM2845;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oakleafproject.TabSelectionButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabSelectionButton.app/TabSelectionButton";
+			};
+			name = Debug;
+		};
+		61277D24285C237300BB0A4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DZ9QM2845;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oakleafproject.TabSelectionButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TabSelectionButton.app/TabSelectionButton";
+			};
+			name = Release;
+		};
+		61277D26285C237300BB0A4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DZ9QM2845;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oakleafproject.TabSelectionButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TabSelectionButton;
+			};
+			name = Debug;
+		};
+		61277D27285C237300BB0A4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3DZ9QM2845;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oakleafproject.TabSelectionButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TabSelectionButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61277CF0285C236C00BB0A4A /* Build configuration list for PBXProject "TabSelectionButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61277D1D285C237300BB0A4A /* Debug */,
+				61277D1E285C237300BB0A4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61277D1F285C237300BB0A4A /* Build configuration list for PBXNativeTarget "TabSelectionButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61277D20285C237300BB0A4A /* Debug */,
+				61277D21285C237300BB0A4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61277D22285C237300BB0A4A /* Build configuration list for PBXNativeTarget "TabSelectionButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61277D23285C237300BB0A4A /* Debug */,
+				61277D24285C237300BB0A4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61277D25285C237300BB0A4A /* Build configuration list for PBXNativeTarget "TabSelectionButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61277D26285C237300BB0A4A /* Debug */,
+				61277D27285C237300BB0A4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61277CED285C236C00BB0A4A /* Project object */;
+}
